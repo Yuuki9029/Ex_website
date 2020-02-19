@@ -285,14 +285,17 @@ header{
 .footer-section{
     overflow: hidden;
     background-color: #0f131f;
-    height: 300px;
-    border-bottom: 1px solid;
+    height: 100%;
 }
-.footer-section-inside{
-    margin: 10px;
+.footer-section__inside{
+    margin: 0px;
+    border-bottom: 1px solid;
+    padding: 35px 82px 32px 72px;
 }
 .footer-section h1{
     color: #737a8f;
+    margin: 0px;
+    padding-bottom: 32px;
 }
 .footer-section a{
     color: #606574;
@@ -302,54 +305,51 @@ header{
 .footer-section span{
     color: #9da4b8;
 }
-.footer-section-left{
+.footer-section--left{
     float: left;
-    margin-left: 70px;
 }
-.footer-section .About-Us-Footer a{
+.footer-section .about-us-footer a{
     display: block;
 }
-.About-Us-Footer{
+.about-us-footer{
     float: left;
 }
-.footer-section .categories-Footer a{
+.footer-section .categories-footer a{
     display: block;
 }
-.categories-Footer{
+.categories-footer{
     float: right;
-    margin-left: 50px;
+    margin-left: 55px;
 }
-.footer-section-right{
+.footer-section--right{
     float: right;
-    margin-right: 30px;
 }
-.Gallery{
+.gallery{
     float: left;
-    margin-right: 50px;
+    padding-right: 50px;
 }
-.Gallery h1{
+.gallery h1{
     margin-left: 10px;
 }
-.Gallery table{
+.gallery table{
     border-spacing: 10px;
 }
-.Gallery table td{
+.gallery table td{
     border: 1px solid #252c3e;
     background-color: #191f2f;
     text-align: center;
     height: 68px;
     width: 68px;
 }
-.Gallery table tr img{
+.gallery table tr img{
     margin-top: 5px;
     height: 58px;
     width: 58px;
 }
-.Twitter{
+.twitter{
     float: right;
-    margin-right: 50px;
 }
-.Twitter a{
+.twitter a{
     margin-left: 40px;
 }
 iframe{

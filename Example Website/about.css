@@ -20,7 +20,10 @@ h3 {
     font-family: Arial;
     font-size: 20px;
 }
-
+.container{
+    width: 950px;
+    margin: 0 auto 0 auto;
+}
 /* HEADER */
 header{
     background-image: url(./img/Top-bar.png);
@@ -34,7 +37,6 @@ header{
 }
 .header-left{
     float: left;
-    margin-left: 200px;
     padding-top: 20px;
     font-size: 11px;
 }
@@ -49,7 +51,6 @@ header{
 }
 .header-right .search{
     float: right;
-    margin-right: 160px;    
 }
 .search-field{
     border-radius: 10px;
@@ -79,7 +80,7 @@ header{
     margin-left:10 ;
 }
 .section{
-    padding: 0px 201px 55px 200px;
+    padding: 0px 0px 55px 0px;
     text-align: center;
 }
 .logo{
@@ -278,6 +279,7 @@ header{
 .icons{
     width: 30px;
     height: 30px;
+    margin-right: 6px;
 }
 @media all and (min-width: 1200px){
     .row {
@@ -288,20 +290,22 @@ header{
 
 }
 /* Footer-section */
+.footer-bg{
+    background-color: #0f131f;
+}
 .footer-section{
     overflow: hidden;
-    background-color: #0f131f;
     height: 100%;
 }
 .footer-section__inside{
     margin: 0px;
     border-bottom: 1px solid;
-    padding: 35px 200px 32px;
+    padding: 35px 0px 32px;
 }
 .footer-section h3{
     color: #737a8f;
     margin: 0px;
-    padding-bottom: 32px;
+    padding-bottom: 17px;
 }
 .footer-section a{
     color: #606574;
@@ -356,7 +360,7 @@ header{
     float: right;
 }
 .twitter a{
-    margin-left: 40px;
+    margin-left: 66px;
 }
 iframe{
     border-radius: 10px;
@@ -365,7 +369,7 @@ iframe{
 footer{
     background-color: #040507;
     color: #6a7796;
-    padding: 22px 180px 25px 200px;
+    padding: 22px 0px 25px 0px;
     font-size: 11px;
     border-top: 1px solid #181f31;
 }

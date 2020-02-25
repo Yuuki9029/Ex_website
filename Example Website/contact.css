@@ -9,44 +9,36 @@ body{
     background-image: url(./img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-ul {
-    list-style: none;
-}
-h1 {
+h2 {
     font-family: Arial;
     font-size: 22px;
-}
-h1 img {
-    user-select: none;
+    margin: 0px;
 }
 
-h2 {    
+h3 {
     font-family: Arial;
-    font-size: 22px;
+    font-size: 20px;
 }
-h2 img {
-    user-select: none;
+.container{
+    width: 950px;
+    margin: 0 auto 0 auto;
 }
 /* HEADER */
 header{
     background-image: url(./img/Top-bar.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70px;
+    height: 53px;
     text-align: center;
     color: rgb(72, 87, 102);
-    padding: 15px;
-    margin: 0;
-    position: sticky;
-    top: 0;
-    margin-top: -20px;
-    
+    margin-top: -15px;
+    margin-bottom: 33px;    
 }
 .header-left{
     float: left;
-    margin-left: 70px;
+    padding-top: 20px;
+    font-size: 11px;
 }
 .header-left a{
     text-decoration: none;
@@ -59,15 +51,15 @@ header{
 }
 .header-right .search{
     float: right;
-    margin-right: 30px;
 }
 .search-field{
     border-radius: 10px;
-    width: 250px;
+    width: 194px;
     height: 30px;
     background-color: #121314;
     border: 1px solid #1f2223;
     color: #38444f;
+    margin-top: 10px;
 }
 .search-button{
     width: 25px;
@@ -81,31 +73,47 @@ header{
 .header-right .social-network{
     float: left;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .header-right a{
     padding: 2px;
     margin-left:10 ;
 }
 .section{
-    padding: 30px;
+    padding: 0px 0px 55px 0px;
     text-align: center;
-    margin: 40px 30px 70px 50px;
 }
 .logo{
     float: left;
+    position: relative;
+    overflow: hidden;
+    text-indent: -999999px;
+    display: block;
+    width: 272px;
+    height: 60px;
+    background: url(./img/Logo.png) no-repeat;
 }
 .navbar{
     float: right;
+}
+.nav-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-list li{
+    display: inline;
+}
+.nav-list li a{
+    display: inline-block;
 }
 .navbar a{
     color: rgb(122, 128, 144);
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
-    display:inline-block;
-    padding: 14px 15px;
+    padding: 14px 20px;
     border-radius: 10px;
+    font-size: 18px;
 }
 .navbar a:hover{
     background-color: rgba(22, 25, 32, 0.476);
@@ -116,9 +124,9 @@ header{
     background-image: url(./img/Row-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 30px 80px 20px;
     padding: 20px;
-    background-attachment: fixed;
+    margin-bottom: 21px;
+    margin-top: 33px;
 }
 .row{
     background-color: white;
@@ -133,7 +141,7 @@ header{
 }
 .main-title h2{
     margin: 0px;
-    padding: 19px 23px 5px 34px ;
+    padding: 23px 22px 7px 38px;
 }
 .content .main-title .main-heading{
     background: url(./img/icon/Contact/icons-phone-blue.png) no-repeat scroll 0px 20px;
@@ -251,7 +259,7 @@ header{
 }
 .box-heading h3{
     margin: 0;
-    padding: 14px 14px 14px 50px;
+    padding: 17px 24px 16px 50px;
     font-size: 20px;
     color: #ffffff;
     background-color: #9097a9;
@@ -301,11 +309,12 @@ header{
 .box-navi__heading{
     background: url(./img/icon/side/2.png) no-repeat scroll 14px 16px;
 }
-.box-navit--list{
+.box-navi--list{
     padding: 10px;
     margin: 0px;
     font-size: 14px;
     font-weight: bolder;
+    list-style: none;
 }
 .navi-item{
     padding-bottom: 2px;
@@ -315,71 +324,49 @@ header{
     text-decoration: none;
     padding: 14px 10px 16px 13px;
     background: url(./img/icon/side/Arrow_02.png) no-repeat;
-    background-size: cover;
+    width: 100%;
     display: block;
 }
 .navi-item a:hover{
     color: #444d68;
     background: url(./img/icon/side/Arrow_01.png) no-repeat;
-    background-size: cover;
+    width: 100%;
 }
 /* End box-Navi */
 .network-list{
     list-style: none;
     margin: 0px;
-    padding: 20px 16px 80px 16px;
+    padding: 20px 16px 40px 16px;
 }
 .network-list li{
     display: inline-block;
-    padding-right: 10px;
 }
 .network-list li a {
     display: inline-block;
-    padding: 15px;
 }
-.box-social__heading{
-    background: url(./img/icon/side/5.png) no-repeat scroll 14px 13px;
-}
-.icons-media{
-    background: url(./img/icon/Icon-Bottom/1.png) no-repeat scroll;
-    background-size: cover;
-}
-.icons-facebook{
-    background: url(./img/icon/Icon-Bottom/2.png) no-repeat scroll;
-    background-size: cover;
-}
-.icons-flickr{
-    background: url(./img/icon/Icon-Bottom/3.png) no-repeat scroll;
-    background-size: cover;
-}
-.icons-linkedin{
-    background: url(./img/icon/Icon-Bottom/4.png) no-repeat scroll;
-    background-size: cover;
-}
-.icons-twitter{
-    background: url(./img/icon/Icon-Bottom/5.png) no-repeat scroll;
-    background-size: cover;
-}
-.icons-youtube{
-    background: url(./img/icon/Icon-Bottom/6.png) no-repeat scroll;
-    background-size: cover;
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
 }
 /* End box-Social */
 /* Footer-section */
+.footer-bg{
+    background-color: #0f131f;
+}
 .footer-section{
     overflow: hidden;
-    background-color: #0f131f;
     height: 100%;
 }
 .footer-section__inside{
     margin: 0px;
     border-bottom: 1px solid;
-    padding: 35px 82px 32px 72px;
+    padding: 35px 0px 32px;
 }
-.footer-section h1{
+.footer-section h3{
     color: #737a8f;
     margin: 0px;
-    padding-bottom: 32px;
+    padding-bottom: 17px;
 }
 .footer-section a{
     color: #606574;
@@ -410,9 +397,9 @@ header{
 }
 .gallery{
     float: left;
-    padding-right: 50px;
+    padding-right: 45px;
 }
-.gallery h1{
+.gallery h3{
     margin-left: 10px;
 }
 .gallery table{
@@ -422,19 +409,19 @@ header{
     border: 1px solid #252c3e;
     background-color: #191f2f;
     text-align: center;
-    height: 68px;
-    width: 68px;
+    height: 55px;
+    width: 53px;
 }
 .gallery table tr img{
     margin-top: 5px;
-    height: 58px;
-    width: 58px;
+    width: 44px;
+    height: 41px;
 }
 .twitter{
     float: right;
 }
 .twitter a{
-    margin-left: 40px;
+    margin-left: 66px;
 }
 iframe{
     border-radius: 10px;
@@ -443,7 +430,7 @@ iframe{
 footer{
     background-color: #040507;
     color: #6a7796;
-    padding: 40px;
+    padding: 22px 0px 25px 0px;
     font-size: 11px;
     border-top: 1px solid #181f31;
 }

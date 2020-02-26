@@ -78,7 +78,7 @@ h3 {
 }
 .header-right a{
     padding: 2px;
-    margin-left:10 ;
+    margin-left:10;
 }
 .section{
     padding: 0px 0px 33px 0px;
@@ -104,6 +104,7 @@ h3 {
 }
 .nav-list li{
     display: inline;
+    margin: -5px;
 }
 .nav-list li a{
     display: inline-block;
@@ -112,7 +113,7 @@ h3 {
     color: rgb(122, 128, 144);
     text-decoration: none;
     font-weight: bold;
-    padding: 14px 20px;
+    padding: 17px;
     border-radius: 10px;
     font-size: 18px;
 }
@@ -182,7 +183,6 @@ h3 {
     padding: 17px 24px 16px 50px;
     margin: 0px;
 }
-
 .browser{
     width: 223px;
     height: 82px;
@@ -208,7 +208,6 @@ h3 {
     margin: 0px;
     padding: 10px;
 }
-
 .navigation li{
     display: block;
     background:#dce0e9 url(./img/icon/side/arrow-icon1.png) no-repeat 227px 50%;
@@ -288,6 +287,8 @@ h3 {
 /* Footer-section */
 .footer-bg{
     background-color: #0f131f;
+    border-bottom: 1px solid;
+
 }
 .footer-section{
     overflow: hidden;
@@ -295,7 +296,6 @@ h3 {
 }
 .footer-section__inside{
     margin: 0px;
-    border-bottom: 1px solid;
     padding: 35px 0px 32px;
 }
 .footer-section h3{
@@ -306,7 +306,7 @@ h3 {
 .footer-section a{
     color: #606574;
     text-decoration: none;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 .footer-section span{
     color: #9da4b8;
@@ -335,50 +335,43 @@ h3 {
     width: 50%;
     float: left;
 }
-.footer-section--left{
-    float: left;
-}
 .footer-section .about-us-footer a{
     display: block;
-}
-.about-us-footer{
 }
 .footer-section .categories-footer a{
     display: block;
 }
-.categories-footer{
-
-}
-.footer-section--right{
-    float: right;
-}
-
 .gallery{
-
-}
-.gallery h3{
-
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
 }
 .list-img{
     list-style: none;
     overflow: hidden;
-    padding: 0px;
+    padding: 0px 40px 0 0;
+    margin: 0 -5px -15px 0;
 }
 .list-img li{
     float: left;
-    width: 25%;
+    width: 20%;
     background: #191f2f;
     border: 1px solid #0f131f;
+    padding:5px;
+    margin: 0 10px 10px 0;
 }
 .list-img a{
-    display: inline-block;
+    display: block;
+    margin: 0px 0px -5px 0;
 }
 .list-img img{
     max-width: 100%;
     height: auto;
 }
 .twitter {
-    margin-top: -10px;
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
 }
 .twitter a{
     margin-left: 66px;

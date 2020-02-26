@@ -286,7 +286,9 @@ h3 {
 .box-address a:hover{
     color: #415894;
 }
-
+.box-address p{
+    margin: 0;
+}
 .box-address__phone,
 .box-address__email,
 .box-address__skype{

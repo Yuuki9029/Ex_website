@@ -34,11 +34,11 @@ h3 {
     height: 100%;
     text-align: center;
     color: rgb(72, 87, 102);
-    margin-bottom: 33px;    
+    margin-bottom: 31px;    
 }
 .header-left{
     float: left;
-    padding-top: 20px;
+    padding-top: 18px;
     font-size: 11px;
 }
 .header-left a{
@@ -49,6 +49,7 @@ h3 {
 .header-right {
     padding: 0;
     float: right;
+    margin-right: -27px;
 }
 .header-right .search{
     float: right;
@@ -68,12 +69,12 @@ h3 {
     background-image: url(./img/icon/Icon-Top/search-icon.png);
     border: 0;
     position: relative;
-    top: 8px;
-    right: 40px;
+    top: 5px;
+    right: 33px;
 }
 .header-right .socialnetwork{
     float: left;
-    margin-right: 20px;
+    margin-right: 8px;
     margin-top: 15px;
 }
 .header-right a{
@@ -81,7 +82,7 @@ h3 {
     margin-left:10;
 }
 .section{
-    padding: 0px 0px 33px 0px;
+    padding: 0px 0px 20px 0px;
     text-align: center;
 }
 .logo{
@@ -138,13 +139,14 @@ h3 {
 /* Content */
 .content{
     flex: 70%;
-    padding:0px 20px 42px;
+    padding:0px 20px 42px 22px;
 }
 .content h2{
-    border-bottom: 1px dashed #84a1af;
+    border-bottom: 1px dotted #84a1af;
     color: #4d5467;
-    padding: 23px 22px 7px 38px;
-    background: url(./img/icon/images/1.png) no-repeat scroll 0px 23px ;
+    padding:19px 19px 0px 37px;
+;
+    background: url(./img/icon/images/1.png) no-repeat scroll 5px 18px ;
 }
 .content .img{
     border: 1px solid #ced1da;

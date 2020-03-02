@@ -23,7 +23,7 @@ h3 {
     font-size: 20px;
 }
 .container{
-    width: 950px;
+    width: 951px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -40,6 +40,9 @@ h3 {
     float: left;
     padding-top: 18px;
     font-size: 11px;
+}
+.header-left span{
+    margin-left: -2px;
 }
 .header-left a{
     text-decoration: none;
@@ -61,7 +64,11 @@ h3 {
     background-color: #121314;
     border: 1px solid #1f2223;
     color: #38444f;
-    margin: 10px 0; 
+    margin: 11px 0 11px; 
+}
+input[type="search"]{
+    font-size: 11px;
+    color: #38444f;
 }
 .search-button{
     width: 25px;
@@ -74,7 +81,7 @@ h3 {
 }
 .header-right .socialnetwork{
     float: left;
-    margin-right: 8px;
+    margin-right: 11px;
     margin-top: 15px;
 }
 .header-right a{
@@ -82,7 +89,7 @@ h3 {
     margin-left:10;
 }
 .section{
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 18px 0px;
     text-align: center;
 }
 .logo{
@@ -97,6 +104,7 @@ h3 {
 }
 .navbar{
     float: right;
+    padding-top: 8px;
 }
 .nav-list{
     list-style: none;
@@ -105,7 +113,7 @@ h3 {
 }
 .nav-list li{
     display: inline;
-    margin: -5px;
+    margin: 1px;
 }
 .nav-list li a{
     display: inline-block;
@@ -115,8 +123,10 @@ h3 {
     text-decoration: none;
     font-weight: bold;
     padding: 17px;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 5px;
+    padding: 6px 16px 9px 13px;
+    letter-spacing: -1px;
+    font-size: 17px;
 }
 .navbar a:hover{
     background-color: rgba(22, 25, 32, 0.476);
@@ -129,6 +139,7 @@ h3 {
     background-size: cover;
     padding: 20px;
     margin-bottom: 21px;
+    margin-right: 201px;
 }
 .row{
     background-color: white;
@@ -138,15 +149,15 @@ h3 {
 
 /* Content */
 .content{
-    flex: 70%;
-    padding:0px 20px 42px 22px;
+    width: 70.8%;
+    padding:0px 21px 42px 22px;
 }
 .content h2{
     border-bottom: 1px dotted #84a1af;
     color: #4d5467;
     padding:19px 19px 0px 37px;
 ;
-    background: url(./img/icon/images/1.png) no-repeat scroll 5px 18px ;
+    background: url(./img/icon/images/1.png) no-repeat scroll 0px 18px ;
 }
 .content .img{
     border: 1px solid #ced1da;
@@ -169,7 +180,7 @@ h3 {
 }
 /* Side Bar */
 .side-bar{
-    flex: 30%;
+    width: 29.2%;
     background-color: rgb(238, 240, 245);
 }
 
@@ -177,18 +188,18 @@ h3 {
     margin: 0px;
 }
 .browser-header{
-    background: url(./img/icon/side/1.png) no-repeat scroll 13px 14px;
+    background: url(./img/icon/side/1.png) no-repeat scroll 10px 13px;
 }
 .side-bar h3{
     color: white;
     background-color: #9097a9;
-    padding: 17px 24px 16px 50px;
+    padding: 14px 24px 11px 49px;
     margin: 0px;
 }
 .browser{
-    width: 223px;
-    height: 82px;
-    margin: 20px 24px 18px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 21px 12px;
 }
 .web-browser p{
     text-align: justify;
